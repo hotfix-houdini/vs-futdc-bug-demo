@@ -7,7 +7,7 @@ This repo demonstrates a bug with Build Acceleration / Fast-up-to-date-check in 
 
 # Steps to reproduce
 ## Quick - Pull this repo
-Pull this repo and run the unit test repeatedly, you should see the unit test alternate between passing and failing. Build acceleration is mistakenly giving ProjectA's appsettings.config to ProjectB's output folder every other time. 
+Pull this repo and run the unit test repeatedly, you should see the unit test alternate between passing and failing. Build acceleration is mistakenly giving ProjectA's `appsettings.json` to ProjectB's output folder every other time. 
 
 ## Indepth - from scratch
 0. Create a new .NET 6 solution
